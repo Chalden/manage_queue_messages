@@ -1,0 +1,10 @@
+#Folders
+.vs/
+packages/
+bin/
+obj/
+Properties/
+
+#Files
+*.csproj
+
