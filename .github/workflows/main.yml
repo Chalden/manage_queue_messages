@@ -15,6 +15,6 @@ jobs:
     - name: Setup MSBuild.exe
       uses: warrenbuckley/Setup-MSBuild@v1
     - name: Build with MSBuild
-      run: msbuild manage_queue_messages/QueueTest.sln -p:Configuration=Release
+      run: msbuild manage_queue_messages/blob/master/QueueTest.sln -p:Configuration=Release
       
        
